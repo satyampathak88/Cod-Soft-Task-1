@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.first{
+    width: 20rem;
+    height: 19rem;
+}
+.image{
+    height: 10rem;
+    width: 30rem;
+}
+.progress{
+  width: 25rem;
+}
+.icon{
+  width: 35rem;
+}
+.pic{
+  width: 10rem;
+}
+
+@media only screen and (max-width:450px) {
+  .first{
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+  .sec{
+    text-align: center;
+  }
+  .image{
+    width: 20rem;
+  }
+  .mass{
+    margin-top: 3rem;
+  }
+  .progress{
+    width: 20rem;
+  }
+  .card{
+    width: 20rem;
+  }
+  .topic{
+    margin-right: 5rem;
+  }
+}
